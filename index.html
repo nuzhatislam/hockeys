@@ -15,6 +15,9 @@
         
     }
 
+
+
+
 </style>
 
 <!-- tailwind and daisyui -->
@@ -70,16 +73,17 @@
 
 
         </div>
-        <div class="rounded-none box-content h- w-32 p-4 border-4 ">
+        <div class="px-36 ">
+        <div class=" max-w-7xl border">
             <!-- slide1 -->
         <div class="carousel max-w-screen-xl h-max ">
             <div id="slide1" class="carousel-item relative w-full ">
-                <div class=" pr-40 pl-48">
-                    <img src="/Images/1.png" class=" max-w-5xl">
+                <div class=" items-stretch">
+                    <img src="/Images/1.png" class="slide justify-items-center max-w-7xl">
                 </div>
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 ">
+              <div class="absolute flex justify-around transform -translate-y-1/2 left-5 right-5 top-1/2 ">
 
-               <div class=" pl-44"> <a href="#slide4" class="btn btn-circle">❮</a> </div>
+               <div class=" "> <a href="#slide4" class="btn btn-circle">❮</a> </div>
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
             </div> 
@@ -106,18 +110,19 @@
             </div>
           </div>
         </div>
+      </div>
     </header>
     
     <main>
-        <div class=" px-36 ">
+        <div class=" px-36 pt-14 ">
             <div class="max-w-7xl border text-center">
                 <h3 class="font-manrope font-extrabold text-3xl pt-6">Professional Hockeys Club</h3>
                 <p class="px-48 py-5 pb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem qui ex maxime. Aperiam id sit sequi debitis voluptates quidem exercitationem cumque, iste veniam voluptas eum non officia. Dignissimos, harum animi!</p>
             </div>
         </div>
         <!-- progress -->
-        <div>
-
+        <div class="px-36 py-14">
+          <div class="max-w-7xl border i">
             <div class="radial-progress" style="--value:0;" role="progressbar">0%</div>
             <div class="radial-progress" style="--value:20;" role="progressbar">20%</div>
             <div class="radial-progress" style="--value:60;" role="progressbar">60%</div>
@@ -125,16 +130,17 @@
             <div class="radial-progress" style="--value:100;" role="progressbar">100%</div>
 
         </div>
+      </div>
         <div class="px-36">
             <div class="max-w-7xl border text-center">
                 <h3 class="font-manrope font-extrabold text-3xl pt-5">Program Sections</h3>
                 <p class="px-48 py-5 pb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse deleniti tempore est fuga natus exercitationem optio, repellendus tempora obcaecati ipsum possimus libero maxime repudiandae dicta nobis id! Quod, unde tempora.</p>
             </div>
         </div>
-        <div>
-
-            <!-- image1 -->
-        <div class="hero min-h-screen" style="background-image: url(/Images/2.png);">
+        <div class="grid grid-cols-2 gap-y-6 gap-x-6 px-36 py-14 ">
+          
+          <div class=" border rounded-2xl ">  <!-- image1 -->
+        <div class="hero min-h-screen " style="background-image: url(/Images/2.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-md">
@@ -143,7 +149,7 @@
                 <button class="btn btn-primary">Register Now!</button>
               </div>
             </div>
-          </div>
+          </div></div>
 
           <!-- image2 -->
           <div class="hero min-h-screen" style="background-image: url(/Images/3.png);">
@@ -158,7 +164,7 @@
           </div>
 
             <!-- image3 -->
-            <div class="hero min-h-screen" style="background-image: url(/Images/4.png);">
+            <div class="hero min-h-screen col-span-2" style="background-image: url(/Images/4.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md">
@@ -168,8 +174,15 @@
                   </div>
                 </div>
               </div>
-
+            
         </div>
+      </div>
+      <div class=" px-36 pt-14 ">
+        <div class="max-w-7xl border text-center">
+            <h3 class="font-manrope font-extrabold text-3xl pt-6">Our New Products</h3>
+            <p class="px-48 py-5 pb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem qui ex maxime. Aperiam id sit sequi debitis voluptates quidem exercitationem cumque, iste veniam voluptas eum non officia. Dignissimos, harum animi!</p>
+        </div>
+    </div>
     </main>
     <footer>
 
